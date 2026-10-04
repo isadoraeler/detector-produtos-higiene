@@ -1,6 +1,6 @@
 # Detector de produtos de higiene com YOLOv7
 
-Modelo de visão computacional que identifica **12 tipos de produto de higiene pessoal** em fotos, treinado com a rede **YOLOv7** em um dataset próprio (coleta, rotulação e divisão feitas por mim).
+Modelo de visão computacional que identifica **12 tipos de produto de higiene pessoal** em fotos, treinado com a rede **YOLOv7** em um dataset próprio, criado em grupo (4 pessoas). Na coleta, fiquei com os produtos de banho, proteção, álcool em gel e sabonetes, e fui responsável por treinar, avaliar e analisar o modelo.
 
 **Resultado no conjunto de teste (65 imagens nunca vistas): mAP@.5 = 0,784 | mAP@.5:.95 = 0,568**
 
@@ -19,8 +19,8 @@ Modelo de visão computacional que identifica **12 tipos de produto de higiene p
 | Teste | 65 |
 | **Total** | **671** |
 
-- Fotos próprias, com variação de fundo, distância e ângulo.
-- Rótulos em **formato YOLO**: um `.txt` por imagem, com uma linha por objeto:
+- Fotos próprias do grupo, com variação de fundo, distância e ângulo.
+- Rotuladas no [MakeSense.ai](https://www.makesense.ai/), em **formato YOLO**: um `.txt` por imagem, com uma linha por objeto:
 
 ```
 classe  centro_x  centro_y  largura  altura
